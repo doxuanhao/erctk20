@@ -379,8 +379,8 @@ contract MintableToken is StandardToken, Ownable {
  * @title Base contract for Thiet PC token
  */
 contract ThietPC is MintableToken {
-  string public name = "Phu Hao PC";
-  string public symbol = "PHC";
+  string public name = "PHU HAO TOKEN";
+  string public symbol = "PHT";
   uint public decimals = 10;
 
   constructor() public {
