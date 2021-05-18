@@ -47,10 +47,10 @@ contract CodeWithJoe is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "FTX.FINANCE";
-        symbol = "FTX";
-        decimals = 8;
-        _totalSupply = 1000000000000000000;
+        name = "TOMATO.FINANCE (V3)";
+        symbol = "TMT";
+        decimals = 9;
+        _totalSupply = 10000000000000000000;
 
         balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);
